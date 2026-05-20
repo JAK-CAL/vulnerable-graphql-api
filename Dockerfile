@@ -1,8 +1,11 @@
-FROM ubuntu:18.04
-MAINTAINER Aidan Noll (aidan.noll@carvesystems.com)
+FROM ubuntu:22.04
+LABEL maintainer="Aidan Noll (aidan.noll@carvesystems.com)"
 
+ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y nodejs npm python3 sqlite3
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    nodejs npm python3 python-is-python3 sqlite3 ca-certificates build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -m app
 USER app
