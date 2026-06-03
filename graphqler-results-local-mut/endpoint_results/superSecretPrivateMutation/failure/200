@@ -1,0 +1,2241 @@
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "76PBBTWTVB") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: 76PBBTWTVB\n/bin/sh: 76PBBTWTVB: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}
+------------------Payload:-------------------
+mutation {
+  superSecretPrivateMutation(command: "YMJZI4OZ04") {
+    stdout
+    stderr
+  }
+}
+------------------Response:-------------------
+{'errors': [{'message': 'Command failed: YMJZI4OZ04\n/bin/sh: YMJZI4OZ04: command not found\n', 'locations': [{'line': 2, 'column': 3}], 'path': ['superSecretPrivateMutation']}], 'data': {'superSecretPrivateMutation': None}}

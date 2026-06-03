@@ -1,0 +1,296 @@
+createComment:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    body:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: body
+      ofType: null
+      type: String
+    postId:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: postId
+      ofType: null
+      type: ID
+    public:
+      defaultValue: 'true'
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+  isDepracated: false
+  mutationType: CREATE
+  name: createComment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+  softDependsOn:
+    postId: Post
+createPost:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    content:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: content
+      ofType: null
+      type: String
+    public:
+      defaultValue: 'true'
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+    title:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: title
+      ofType: null
+      type: String
+  isDepracated: false
+  mutationType: CREATE
+  name: createPost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+  softDependsOn: {}
+deleteComment:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  isDepracated: false
+  mutationType: DELETE
+  name: deleteComment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+  softDependsOn:
+    id: Comment
+deletePost:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  isDepracated: false
+  mutationType: DELETE
+  name: deletePost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+  softDependsOn:
+    id: Post
+login:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    password:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: password
+      ofType: null
+      type: String
+    username:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: username
+      ofType: null
+      type: String
+  isDepracated: false
+  mutationType: UNKNOWN
+  name: login
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+  softDependsOn: {}
+passwordReset:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    input:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: input
+      ofType: null
+      type: JSON
+  isDepracated: false
+  mutationType: UNKNOWN
+  name: passwordReset
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+  softDependsOn: {}
+register:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    firstName:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: firstName
+      ofType: null
+      type: String
+    lastName:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: lastName
+      ofType: null
+      type: String
+    password:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: password
+      ofType: null
+      type: String
+    username:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: username
+      ofType: null
+      type: String
+  isDepracated: false
+  mutationType: UNKNOWN
+  name: register
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+  softDependsOn: {}
+superSecretPrivateMutation:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    command:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: command
+      ofType: null
+      type: String
+  isDepracated: false
+  mutationType: UNKNOWN
+  name: superSecretPrivateMutation
+  output:
+    kind: OBJECT
+    name: CommandOutput
+    ofType: null
+    type: CommandOutput
+  softDependsOn: {}
+updateComment:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    body:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: body
+      ofType: null
+      type: String
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+    public:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+  isDepracated: false
+  mutationType: UPDATE
+  name: updateComment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+  softDependsOn:
+    id: Comment
+updatePost:
+  description: null
+  hardDependsOn: {}
+  inputs:
+    content:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: content
+      ofType: null
+      type: String
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+    public:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+    title:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: title
+      ofType: null
+      type: String
+  isDepracated: false
+  mutationType: UPDATE
+  name: updatePost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+  softDependsOn:
+    id: Post

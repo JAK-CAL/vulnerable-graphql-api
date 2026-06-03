@@ -22,6 +22,8 @@ export var CreatePost: GraphQLFieldConfig<any,any,any> = {
         let user_id = context.user.id;
         let post_data = {
             UserId: user_id,
+            deleted: false,
+            internalNote: 'moderation-only post note',
             ...args
         };
         let post = await db.Post.create(post_data, {});

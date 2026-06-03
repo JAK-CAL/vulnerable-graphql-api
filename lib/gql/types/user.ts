@@ -33,6 +33,9 @@ export var UserType: GraphQLObjectType = new GraphQLObjectType({
         lastName: {
             type: GraphQLString
         },
+        resetToken: {
+            type: GraphQLString
+        },
 
         posts: {
             type: new GraphQLList(PostType),
@@ -43,6 +46,14 @@ export var UserType: GraphQLObjectType = new GraphQLObjectType({
 
 
 export var GetAllUsers: GraphQLFieldConfig<any, any, any> = {
+    type: new GraphQLList(UserType),
+    resolve: async () => {
+        let users = await db.User.findAll();
+        return users;
+    }
+}
+
+export var AdminUsers: GraphQLFieldConfig<any, any, any> = {
     type: new GraphQLList(UserType),
     resolve: async () => {
         let users = await db.User.findAll();

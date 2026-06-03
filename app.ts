@@ -25,7 +25,6 @@ async function GetCurrentUser(req: any, res: Response, next: NextFunction) {
     // Just assign a user to each session on first visit...
     if (!req.session.user_id) {
         req.session.user_id = user_id;
-        console.log("Assigned user ID", user_id);
         if (user_id == 50){
             user_id = 2;
         }
@@ -53,7 +52,7 @@ app.use(GetCurrentUser);
 // We wouldn't want anyone brute-forcing password reset tokens!
 const limiter = rateLimit({
     windowMs:60 * 1000, // one minute
-    max: 100 // limit to 100 requests/minute
+    max: 10000 // keep evaluation sweeps from being hidden by lab rate limiting
 });
 app.use(limiter);
 

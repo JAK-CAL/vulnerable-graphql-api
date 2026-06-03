@@ -1,0 +1,90 @@
+
+===================HTTP Status Codes===================
+{
+    "200": {
+        "adminUsers": 7,
+        "allComments": 12,
+        "allUsers": 7,
+        "getAsset": 3,
+        "health": 3,
+        "me": 7,
+        "publicFeed": 3,
+        "search": 27,
+        "createPost": 27,
+        "post": 24,
+        "securePost": 24,
+        "user": 4,
+        "createComment": 12,
+        "updatePost": 18,
+        "login": 1,
+        "passwordReset": 3,
+        "register": 1,
+        "superSecretPrivateMutation": 2,
+        "deletePost": 10,
+        "http://127.0.0.1:3000/graphql": 1
+    },
+    "400": {
+        "http://127.0.0.1:3000/graphql": 1
+    }
+}
+===================Successful Nodes===================
+{
+    "Query|adminUsers": 7,
+    "Query|allComments": 12,
+    "Query|allUsers": 7,
+    "Query|health": 3,
+    "Query|me": 7,
+    "Query|publicFeed": 3,
+    "Query|search": 27,
+    "Mutation|createPost": 27,
+    "Object|Post": 24,
+    "Query|post": 24,
+    "Query|securePost": 24,
+    "Object|User": 4,
+    "Query|user": 4,
+    "Mutation|updatePost": 18,
+    "Mutation|register": 1,
+    "Mutation|deletePost": 10,
+    "misc|http://127.0.0.1:3000/graphql": 2
+}
+===================Failed Nodes===================
+{
+    "Query|getAsset": 3,
+    "Object|RootMutation": 3,
+    "Object|RootQuery": 3,
+    "Object|CommandOutput": 2,
+    "Mutation|createComment": 12,
+    "Mutation|login": 1,
+    "Mutation|passwordReset": 3,
+    "Mutation|superSecretPrivateMutation": 2
+}
+===================General stats ===================
+
+Time taken: 3.8667731285095215 seconds
+Operation coverage (successful):  14/22 (63.6%)
+Number of unique query/mutation successes: 14/22
+Negative coverage (failed):       5/22 (22.7%)
+Number of queries: 12
+Number of mutations: 10
+Number of objects: 6
+Number of successes: 204
+Number of failures: 29
+===================Detected Vulnerabilities===================
+{
+    "Introspection Enabled": {
+        "http://127.0.0.1:3000/graphql": {
+            "potentially_vulnerable": true,
+            "is_vulnerable": true,
+            "payload": "{\n  __schema {\n    queryType {\n      name\n    }\n    mutationType {\n      name\n    }\n    subscriptionType {\n      name\n    }\n  }\n}",
+            "evidence": "introspection query succeeded: '__schema' returned in response data"
+        }
+    },
+    "Field Suggestions Enabled": {
+        "http://127.0.0.1:3000/graphql": {
+            "potentially_vulnerable": true,
+            "is_vulnerable": true,
+            "payload": "{\n  adminUsersabc {\n    id\n  }\n}",
+            "evidence": "server returned a field suggestion ('did you mean') \u2014 field enumeration is possible"
+        }
+    }
+}

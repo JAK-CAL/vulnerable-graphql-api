@@ -4,7 +4,6 @@ import { GraphQLJSON } from 'graphql-type-json'
 import { UserType } from '../types/user';
 
 import {db} from '../../../models'
-import { AnySoaRecord } from 'dns';
 
 import argon2 from 'argon2';
 import faker from 'faker';
@@ -73,7 +72,6 @@ export const PasswordReset: GraphQLFieldConfig<any,any,any> = {
         },
     },
     resolve: async(_root, args, context) => {
-        console.log(args);
         if (args.input.username === undefined || args.input.reset_token === undefined || args.input.new_password === undefined) {
             throw new Error("Must provide username, new_password, and reset_token.")
         }

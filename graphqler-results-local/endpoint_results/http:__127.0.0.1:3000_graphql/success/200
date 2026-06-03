@@ -1,0 +1,48 @@
+------------------Payload:-------------------
+{
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+  }
+}
+------------------Response:-------------------
+{'data': {'__schema': {'queryType': {'name': 'RootQuery'}, 'mutationType': {'name': 'RootMutation'}, 'subscriptionType': None}}}
+------------------Payload:-------------------
+{
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+  }
+}
+------------------Response:-------------------
+{'data': {'__schema': {'queryType': {'name': 'RootQuery'}, 'mutationType': {'name': 'RootMutation'}, 'subscriptionType': None}}}
+------------------Payload:-------------------
+{
+  __schema {
+    queryType {
+      name
+    }
+    mutationType {
+      name
+    }
+    subscriptionType {
+      name
+    }
+  }
+}
+------------------Response:-------------------
+{'data': {'__schema': {'queryType': {'name': 'RootQuery'}, 'mutationType': {'name': 'RootMutation'}, 'subscriptionType': None}}}

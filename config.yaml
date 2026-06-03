@@ -1,0 +1,15 @@
+endpoint: http://127.0.0.1:3000/graphql
+outputDir: security-results
+requestBudget: 50
+seed: 1
+# Optional: read a saved operation catalog instead of introspecting the local schema.
+# operationCatalogPath: security-results/op_catalog.json
+# Optional: compare findings against a custom ground truth table.
+groundTruthPath: ground_truth.json
+actors:
+  - name: A
+    username:
+    password:
+  - name: B
+    username:
+    password:

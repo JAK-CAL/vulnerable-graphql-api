@@ -1,7 +1,9 @@
 import {GraphQLObjectType, GraphQLString} from 'graphql';
 
 import {GetAllUsers, GetUserById, Me} from './user'
-import { GetPostById, Search } from './post';
+import { GetPostById, SecureGetPostById, Search } from './post';
+import { GetAllComments, GetCommentById } from './comment';
+import { AdminUsers } from './user';
 
 import axios from 'axios';
 
@@ -17,7 +19,29 @@ export const QueryType = new GraphQLObjectType({
 
         // Find a post, or search. 
         post: GetPostById,
+        securePost: SecureGetPostById,
         search: Search,
+
+        // Additional object type for authorization testing.
+        comment: GetCommentById,
+        allComments: GetAllComments,
+
+        // Admin-like query without role enforcement.
+        adminUsers: AdminUsers,
+
+        // Decoy operations make the schema less tiny without adding real security signal.
+        health: {
+            type: GraphQLString,
+            resolve: async () => {
+                return "ok";
+            }
+        },
+        publicFeed: {
+            type: GraphQLString,
+            resolve: async () => {
+                return "public feed placeholder";
+            }
+        },
 
         // Resolve an asset stored on the external service.
         getAsset: {
