@@ -29,8 +29,13 @@ export function isAttackReady(state: string): boolean {
         || state === 'TEMPLATE_READY'
         || state === 'RANDOM_BASELINE'
         || state === 'RANDOM_ATTACK_GENE'
+        || state === 'RANDOM_SEQUENCE_GENE'
         || state === 'GA_WITHOUT_FSM'
-        || state === 'MIO_FSM_ARCHIVE';
+        || state === 'MIO_FSM_ARCHIVE'
+        || state === 'GRAPH_GA'
+        || state === 'GRAPH_GA_SEED'
+        || state === 'GRAPH_GA_MUTATED'
+        || state === 'GRAPH_GA_CROSSOVER';
 }
 
 function coveredAttackTypes(findings: Finding[]): string[] {

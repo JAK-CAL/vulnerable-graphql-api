@@ -138,6 +138,55 @@ export interface AttackExecutionLog {
     finding?: Finding;
 }
 
+export interface DependencyEdge {
+    from: string;
+    to: string;
+    producedType: string;
+    consumedArg: string;
+    bindingRule: 'id' | 'object' | 'field';
+    confidence: number;
+}
+
+export interface OperationStepGene {
+    actor: string;
+    operationName: string;
+    operationKind: OperationKind;
+    inputBindings: any;
+    selectionSet: string[];
+}
+
+export interface SequenceChromosome {
+    id: string;
+    targetClass: AttackType;
+    sourceGene: AttackGene;
+    steps: OperationStepGene[];
+    sequence: SequenceStep[];
+    expectedStateGoal: string;
+    generation: number;
+    fitness: number;
+    feedback?: RuntimeFeedback;
+    mutationHistory: string[];
+}
+
+export interface RuntimeFeedback {
+    validGraphQL: boolean;
+    executedSteps: number;
+    completed: boolean;
+    capturedObjects: number;
+    usedForeignReference: boolean;
+    reachedAttackReady: boolean;
+    responseHadData: boolean;
+    responseHadAuthError: boolean;
+    sensitiveFieldReturned: boolean;
+    sideEffectVerified: boolean;
+    findingProduced: boolean;
+    newResolverCovered: boolean;
+    newObjectTypeCovered: boolean;
+    newTemplateCovered: boolean;
+    dependencySatisfied: boolean;
+    invalidPenalty: number;
+}
+
 export interface EvaluationResult {
     baseline: string;
     seed?: number;

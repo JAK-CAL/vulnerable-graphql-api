@@ -10,6 +10,7 @@ import {Reporter} from './reporter';
 import {loadOperationCatalog} from './schema_loader';
 import {lowerGeneToSequence} from './sequence_planner';
 import {buildDependencyOnlyCandidates, buildPureRandomSchemaCandidates, PlannedBaselineCandidate} from './baseline_planner';
+import {runGraphGa} from './graph_ga';
 import {
     AttackExecutionLog,
     AttackGene,
@@ -80,6 +81,17 @@ async function runMode(mode: string, config: SecurityTestConfig, catalog: Operat
     }
     if (mode === 'dependency-only') {
         return runPlannedBaseline(mode, config, catalog, buildDependencyOnlyCandidates(catalog, config.actors[0].name, config.seed || 1));
+    }
+    if (mode === 'graph-ga' || mode === 'ours') {
+        const result = await runGraphGa(config, catalog, population);
+        return {
+            mode: mode,
+            budget: config.requestBudget,
+            logs: result.logs,
+            findings: uniqueFindings(result.findings),
+            pool: result.pool,
+            evaluation: evaluationFromLogs(mode, config.seed, config.requestBudget, result.requestCount, result.logs, result.findings, result.attackReady, result.executable, result.firstFindingAt)
+        };
     }
 
     const executor = new MultiSessionExecutor(config);
@@ -234,7 +246,7 @@ async function runSecurityRegression(config: SecurityTestConfig, options: RunOpt
         }
     }
 
-    const gaRuns = runs.filter((run) => run.mode === 'ours' || run.mode.indexOf('ours@') === 0);
+    const gaRuns = runs.filter((run) => run.mode === 'graph-ga' || run.mode.indexOf('graph-ga@') === 0 || run.mode === 'ours' || run.mode.indexOf('ours@') === 0);
     const ga = gaRuns.sort((a: ModeRun, b: ModeRun) => {
         if (b.findings.length !== a.findings.length) {
             return b.findings.length - a.findings.length;

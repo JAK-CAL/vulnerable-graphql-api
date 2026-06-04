@@ -2,9 +2,9 @@ export const DEFAULT_METHODS = [
     'pure-random-schema',
     'dependency-only',
     'template-only',
-    'random-attack-gene',
+    'random-sequence-gene',
     'ga-without-fsm',
-    'ours'
+    'graph-ga'
 ];
 
 export const COURSE_PROFILE_SEEDS = [1, 2, 3];

@@ -230,8 +230,13 @@ function mioLiteOrder(population: AttackGene[], seed: number): AttackGene[] {
 }
 
 export function prioritizeCandidates(population: AttackGene[], _catalog: OperationCatalogEntry[], mode: string, seed: number = 1337): AttackGene[] {
-    if (mode === 'random-attack-gene' || mode === 'random') {
-        return randomAttackGeneOrder(population, seed);
+    if (mode === 'random-attack-gene' || mode === 'random-sequence-gene' || mode === 'random') {
+        return randomAttackGeneOrder(population, seed).map((gene) => {
+            if (mode === 'random-sequence-gene') {
+                gene.fsmState = 'RANDOM_SEQUENCE_GENE';
+            }
+            return gene;
+        });
     }
     if (mode === 'template-only' || mode === 'template') {
         return templateOrder(population);

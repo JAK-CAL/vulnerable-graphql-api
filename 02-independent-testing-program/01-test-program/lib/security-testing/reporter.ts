@@ -253,17 +253,20 @@ function feedbackMarkdown(evaluations: EvaluationResult[], comparisons: GroundTr
     lines.push('- `valid sequence ratio`, `attack-ready rate`, `unique executable paths`는 harness 내부 품질을 설명하는 secondary metric이다.');
     lines.push('- `pure-random-schema`는 schema operation만 보고 raw 요청을 만든다. authorization template, dependency/FSM, object-pool guidance가 없으므로 낮은 valid-sequence ratio가 정상적인 baseline signal이다.');
     lines.push('- `dependency-only`는 input/output dependency와 object pool만 사용한다. OWASP template 없이 실행 가능성만 높인 비교군이다.');
-    lines.push('- `template-only`, `random-attack-gene`, `ga-without-fsm`, `ours`는 같은 predefined AttackGene 후보군을 서로 다른 ordering policy로 평가한다.');
+    lines.push('- `template-only`는 vulnerability template에서 만든 seed sequence를 deterministic 순서로 실행한다.');
+    lines.push('- `random-sequence-gene`은 같은 seed sequence 공간을 무작위 순서로 실행해서 sequence-level search의 하한 baseline으로 둔다.');
+    lines.push('- `ga-without-fsm`은 template/FSM progress 보상 없이 fitness 기반 ordering만 적용하는 ablation이다.');
+    lines.push('- `graph-ga`는 schema dependency graph로 sequence를 repair하고, per-target archive, uncovered-objective priority, rare semantic path scheduling, FSM progress, runtime feedback으로 sequence chromosome을 선택/교차/변이한다.');
     lines.push('- `securePost`, `secureComment`, `secureUpdate*`, `secureDelete*`, `public*`, `internalStats`는 secure/public/decoy ground-truth 항목이다. FP가 0이면 harness가 secure resolver를 취약점으로 과대보고하지 않았다는 신호다.');
     lines.push('- finding 수가 같거나 비슷하면 “GA가 항상 빠르다”라고 주장하지 않는다. 대신 제한된 request budget에서 security-relevant surface에 budget을 어떻게 배분했는지 비교한다.');
     lines.push('');
     lines.push('## 안전한 Claim');
     lines.push('');
-    lines.push('현재 구현은 local vulnerable GraphQL lab에서 schema-only, dependency-only, template-only, random AttackGene, GA-without-FSM, FSM-guided GA-style prioritization을 같은 budget/seed 조건으로 비교하고, 실행 결과를 JSON report와 ground-truth comparison으로 남기는 end-to-end regression testing MVP다.');
+    lines.push('현재 구현은 local vulnerable GraphQL lab에서 schema-only, dependency-only, template-only, random sequence gene, GA-without-FSM, Graph-GA를 같은 budget/seed 조건으로 비교하고, 실행 결과를 JSON report와 ground-truth comparison으로 남기는 end-to-end regression testing MVP다.');
     lines.push('');
     lines.push('## 피해야 할 Claim');
     lines.push('');
-    lines.push('현재 결과만으로 “FSM-guided GA가 random보다 항상 빠르다”거나 “실제 서비스 exploit에 바로 적용 가능하다”고 말하면 안 된다.');
+    lines.push('현재 결과만으로 “Graph-GA가 random보다 항상 빠르다”거나 “실제 서비스 exploit에 바로 적용 가능하다”고 말하면 안 된다.');
     lines.push('');
     return lines.join('\n');
 }
@@ -297,7 +300,7 @@ function runReportMarkdown(evaluations: EvaluationResult[], comparisons: GroundT
     lines.push('');
     lines.push('## Project Goal');
     lines.push('');
-    lines.push('이 프로젝트는 owned local vulnerable GraphQL lab에 대해 authorization regression tests를 자동 생성/실행하고, baseline ordering과 GA-style prioritization을 비교하는 automated testing harness다.');
+    lines.push('이 프로젝트는 owned local vulnerable GraphQL lab에 대해 authorization regression tests를 자동 생성/실행하고, schema dependency graph + FSM-guided sequence GA가 제한된 request budget에서 어떤 candidate sequence를 먼저 실행하는지 비교하는 automated testing harness다.');
     lines.push('');
     lines.push('## Experiment Design');
     lines.push('');
@@ -345,7 +348,8 @@ function runReportMarkdown(evaluations: EvaluationResult[], comparisons: GroundT
     lines.push('');
     lines.push('## Interpretation');
     lines.push('');
-    lines.push('- 낮은 budget에서는 ordering 자체가 테스트 효과를 결정한다. 후보군 전체를 실행하는 큰 budget보다 budget curve가 프로젝트 주장을 더 잘 보여준다.');
+    lines.push('- 낮은 budget에서는 어떤 operation sequence를 먼저 완성하고 실행하는지가 테스트 효과를 결정한다. 후보군 전체를 실행하는 큰 budget보다 budget curve가 프로젝트 주장을 더 잘 보여준다.');
+    lines.push('- `graph-ga`는 AttackGene을 최종 후보로만 쓰지 않고, schema dependency graph로 executable sequence를 repair한 뒤 per-target archive와 rare-path scheduling으로 request budget을 압축한다.');
     lines.push('- secure/public/decoy resolver가 포함되어 FP를 함께 평가한다. FP가 0이면 안전한 resolver를 취약점으로 과대보고하지 않았다는 근거가 된다.');
     lines.push('- 결과는 local lab regression testing에 대한 것이며, 외부 시스템 테스트나 실제 공격 성능을 주장하지 않는다.');
     lines.push('');
@@ -471,7 +475,7 @@ export class Reporter {
         const filePath = path.join(this.config.outputDir, 'generation_log.json');
         writeJson(filePath, {
             generatedAt: new Date().toISOString(),
-            note: 'Deterministic candidate ordering and execution log. GA entries represent prioritized AttackGene candidates for this MVP.',
+            note: 'Execution log for baselines and GA runs. graph-ga entries represent repaired sequence chromosomes evolved with dependency graph, FSM progress, and runtime feedback.',
             entries: entries
         });
         return filePath;
