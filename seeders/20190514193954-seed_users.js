@@ -1,7 +1,11 @@
 'use strict';
 
 var faker = require('faker');
-var argon2 = require('argon2');
+var crypto = require('crypto');
+
+function hashPassword(password) {
+  return crypto.createHash('sha256').update(String(password || '')).digest('hex');
+}
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -13,7 +17,7 @@ module.exports = {
       let token = faker.random.number({ min: 0, max: 99999 });
 
       let password = faker.internet.password();
-      let hash = await argon2.hash(password);
+      let hash = hashPassword(password);
         var user = {
           username: faker.internet.userName(),
           firstName: faker.name.firstName(),

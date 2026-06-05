@@ -18,6 +18,21 @@ async function resolvePosts(root: any, _args: any, context: any) {
     return posts;
 }
 
+var InternalStatsType = new GraphQLObjectType({
+    name: 'InternalStats',
+    fields: {
+        id: {
+            type: GraphQLID
+        },
+        summary: {
+            type: GraphQLString
+        },
+        internalNote: {
+            type: GraphQLString
+        }
+    }
+})
+
 export var UserType: GraphQLObjectType = new GraphQLObjectType({
     name: "User",
     fields: () => ({
@@ -31,6 +46,9 @@ export var UserType: GraphQLObjectType = new GraphQLObjectType({
             type: GraphQLString
         },
         lastName: {
+            type: GraphQLString
+        },
+        resetToken: {
             type: GraphQLString
         },
 
@@ -47,6 +65,58 @@ export var GetAllUsers: GraphQLFieldConfig<any, any, any> = {
     resolve: async () => {
         let users = await db.User.findAll();
         return users;
+    }
+}
+
+export var AdminUsers: GraphQLFieldConfig<any, any, any> = {
+    type: new GraphQLList(UserType),
+    resolve: async () => {
+        let users = await db.User.findAll();
+        return users;
+    }
+}
+
+export var InternalStats: GraphQLFieldConfig<any, any, any> = {
+    type: InternalStatsType,
+    resolve: async (_root, _args, context) => {
+        if (!context.user || context.user.username !== 'admin') {
+            return null;
+        }
+        let userCount = await db.User.count();
+        let postCount = await db.Post.count();
+        return {
+            id: 'internal-stats',
+            summary: 'users=' + userCount + ';posts=' + postCount,
+            internalNote: null
+        };
+    }
+}
+
+export var AdminAuditStatus: GraphQLFieldConfig<any, any, any> = {
+    type: InternalStatsType,
+    resolve: async (_root, _args, context) => {
+        if (!context.user || context.user.username !== 'admin') {
+            return null;
+        }
+        return {
+            id: 'admin-audit-status',
+            summary: 'audit=enabled',
+            internalNote: null
+        };
+    }
+}
+
+export var PrivateSystemReport: GraphQLFieldConfig<any, any, any> = {
+    type: InternalStatsType,
+    resolve: async (_root, _args, context) => {
+        if (!context.user || context.user.username !== 'admin') {
+            return null;
+        }
+        return {
+            id: 'private-system-report',
+            summary: 'restricted',
+            internalNote: null
+        };
     }
 }
 

@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"@phc/format@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.npmjs.org/@phc/format/-/format-0.5.0.tgz"
-  integrity sha512-JWtZ5P1bfXU0bAtTzCpOLYHDXuxSVdtL/oqz4+xa97h8w9E5IlVN333wugXVFv8vZ1hbXObKQf1ptXmFFcMByg==
-  dependencies:
-    safe-buffer "^5.1.2"
-
 "@types/bluebird@^3.5.26":
   version "3.5.29"
   resolved "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.29.tgz"
@@ -173,15 +166,6 @@ are-we-there-yet@~1.1.2:
   dependencies:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
-
-argon2@^0.25.1:
-  version "0.25.1"
-  resolved "https://registry.npmjs.org/argon2/-/argon2-0.25.1.tgz"
-  integrity sha512-DGm6Wp6csT7Xmlny1gB5qHW+f6aNlEFzhfNaEH2HMmUT7Eymf+68HznvZH4cW9+8fdyBmkoIC+GDV74P14k1zw==
-  dependencies:
-    "@phc/format" "^0.5.0"
-    node-addon-api "^1.7.1"
-    node-pre-gyp "^0.13.0"
 
 array-flatten@1.1.1:
   version "1.1.1"
@@ -1146,31 +1130,10 @@ next-tick@~1.0.0, next-tick@1:
   resolved "https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw= sha512-mc/caHeUcdjnC/boPWJefDr4KUIWQNv+tlnFnJd38QMou86QtxQzBJfxgGRzvx8jazYRqrVlaHarfO72uNxPOg==
 
-node-addon-api@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-1.7.1.tgz"
-  integrity sha512-2+DuKodWvwRTrCfKOeR24KIc5unKjOh8mz17NCzVnHWfjAdDqbfbjqh7gUT+BkXBRQM52+xCHciKWonJ3CbJMQ==
-
 node-pre-gyp@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.11.0.tgz"
   integrity sha512-TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4"
-
-node-pre-gyp@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.13.0.tgz"
-  integrity sha512-Md1D3xnEne8b/HGVQkZZwV27WUi1ZRuZBij24TNaZwUPU3ZAFtvT6xxJGaUVillfmMKnn5oD1HoGsp2Ftik7SQ==
   dependencies:
     detect-libc "^1.0.2"
     mkdirp "^0.5.1"

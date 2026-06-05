@@ -4,9 +4,8 @@ import { GraphQLJSON } from 'graphql-type-json'
 import { UserType } from '../types/user';
 
 import {db} from '../../../models'
-import { AnySoaRecord } from 'dns';
+import { hashPassword, verifyPassword } from '../../password';
 
-import argon2 from 'argon2';
 import faker from 'faker';
 
 export const Register: GraphQLFieldConfig<any,any,any> = {
@@ -27,7 +26,7 @@ export const Register: GraphQLFieldConfig<any,any,any> = {
     },
     resolve: async (_root, args, context) => {
         let token = faker.random.number(99999).toString().padStart(5, '0');
-        let hash = await argon2.hash(args.password);
+        let hash = hashPassword(args.password);
         let user = await db.User.create({
             username: args.username,
             password: hash,
@@ -55,7 +54,7 @@ export const Login: GraphQLFieldConfig<any,any,any> = {
         }
         let user = await db.User.findOne({where: {username: args.username}})
         if (user) {
-            if (!await argon2.verify(user.password, args.password)) {
+            if (!verifyPassword(user.password, args.password)) {
                 throw new Error("Incorrect username or password.")
             }
             context.user = user;
@@ -80,7 +79,7 @@ export const PasswordReset: GraphQLFieldConfig<any,any,any> = {
         let user = await db.User.findOne({where: {username: args.input.username, resetToken: args.input.reset_token}})
         if (user) {
             // Update the user in the database first.
-            user.password = await argon2.hash(args.input.new_password);
+            user.password = hashPassword(args.input.new_password);
             user.save();
 
             // Now, return it.

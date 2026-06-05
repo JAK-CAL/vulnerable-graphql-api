@@ -1,7 +1,7 @@
-import argon2 from 'argon2';
 import faker from 'faker';
 
 import { db } from '../models';
+import { hashPassword } from './password';
 import { clearSessionStore, resetUserState } from './server-state';
 
 function getRandomInt(min: number, max: number) {
@@ -18,7 +18,7 @@ async function seedUsers() {
     for (let i = 0; i < 50; i++) {
         const token = faker.random.number({ min: 0, max: 99999 });
         const password = faker.internet.password();
-        const hash = await argon2.hash(password);
+        const hash = hashPassword(password);
 
         users.push({
             id: i + 1,
@@ -41,7 +41,9 @@ function seedPosts(userIds: number[]) {
             UserId: userIds[0],
             title: 'Secret private post',
             content: 'This is a private post. Go away.',
-            public: false
+            public: false,
+            deleted: false,
+            internalNote: 'owner-only internal note'
         }
     ];
 
@@ -52,23 +54,47 @@ function seedPosts(userIds: number[]) {
             UserId: userId,
             title: faker.lorem.sentence(),
             content: faker.lorem.paragraphs(),
-            public: getRandomInt(0, 5) !== 0
+            public: getRandomInt(0, 5) !== 0,
+            deleted: false,
+            internalNote: faker.lorem.words()
         });
     }
 
     return posts;
 }
 
+function seedComments(userIds: number[], postIds: number[]) {
+    faker.seed(0xFACE);
+
+    const comments = [];
+
+    for (let i = 0; i < 120; i++) {
+        comments.push({
+            UserId: userIds[getRandomInt(0, userIds.length)],
+            PostId: postIds[getRandomInt(0, postIds.length)],
+            body: faker.lorem.sentence(),
+            public: getRandomInt(0, 4) !== 0,
+            deleted: false,
+            moderationNote: faker.lorem.words()
+        });
+    }
+
+    return comments;
+}
+
 export async function resetServerState(clearSessions: boolean = false): Promise<string> {
+    await db.sequelize.query('DELETE FROM Comments');
     await db.sequelize.query('DELETE FROM Posts');
     await db.sequelize.query('DELETE FROM Users');
-    await db.sequelize.query('DELETE FROM sqlite_sequence WHERE name IN ("Users", "Posts")');
+    await db.sequelize.query('DELETE FROM sqlite_sequence WHERE name IN ("Users", "Posts", "Comments")');
 
     const users = await seedUsers();
     const userRows = await db.User.bulkCreate(users);
     const userIds = userRows.map((user: any) => user.id);
 
-    await db.Post.bulkCreate(seedPosts(userIds));
+    const postRows = await db.Post.bulkCreate(seedPosts(userIds));
+    const postIds = postRows.map((post: any) => post.id);
+    await db.Comment.bulkCreate(seedComments(userIds, postIds));
 
     if (clearSessions) {
         await clearSessionStore();
