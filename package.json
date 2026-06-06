@@ -6,6 +6,7 @@
   "scripts": {
     "tsc": "tsc",
     "sequelize": "sequelize --config 01-test-target-graphql-server/01-server/config.json --migrations-path 01-test-target-graphql-server/01-server/migrations --seeders-path 01-test-target-graphql-server/01-server/seeders",
+    "reset": "sh reset.sh",
     "security:catalog": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js catalog",
     "security:fuzz": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js run",
     "security:fuzz:course": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js run --profile course --out 02-independent-testing-program/03-execution-results/security-results-course",
@@ -34,7 +35,6 @@
     "graphql-type-json": "^0.3.0",
     "sequelize": "^5.21.5",
     "sequelize-cli": "^5.5.1",
-    "sqlite": "^3.0.3",
     "sqlite3": "^5.1.7",
     "typescript": "^3.4.5"
   }

@@ -1,4 +1,4 @@
-import express, { NextFunction, Request, Response } from 'express';
+import express, { NextFunction, Response } from 'express';
 import graphqlHTTP from 'express-graphql';
 
 import {schema} from './lib/gql/schema';
@@ -11,26 +11,21 @@ import rateLimit from 'express-rate-limit';
 
 import cors from 'cors';
 
+import { claimNextUserId, sessionStore } from './lib/server-state';
+import { resetServerState } from './lib/reset-state';
 
 const app = express();
 const port = 3000;
 
 app.use(cors());
-
-var user_id = 2;
+app.use(express.json());
 
 async function GetCurrentUser(req: any, res: Response, next: NextFunction) {
 
     // No need for a real login system for this demo API.
     // Just assign a user to each session on first visit...
     if (!req.session.user_id) {
-        req.session.user_id = user_id;
-        if (user_id == 50){
-            user_id = 2;
-        }
-        else {
-            user_id++;
-        }
+        req.session.user_id = claimNextUserId();
     }
 
     let user = await db.User.findByPk(req.session.user_id);
@@ -42,7 +37,8 @@ app.use(session(
     {
         secret: "a very good and secure secret",
         resave: false,
-        saveUninitialized: false
+        saveUninitialized: false,
+        store: sessionStore
     }
 ));
 
@@ -59,6 +55,17 @@ app.use(limiter);
 app.get('/', (_req,res) => {
     return res.redirect('/graphql');
 })
+
+app.post('/reset', async (req, res) => {
+    try {
+        const clearSessions = Boolean(req.body?.clearSessions);
+        const message = await resetServerState(clearSessions);
+        res.json({ ok: true, message });
+    }
+    catch (err) {
+        res.status(500).json({ ok: false, error: String(err) });
+    }
+});
 
 app.use('/graphql', graphqlHTTP({
     schema: schema,

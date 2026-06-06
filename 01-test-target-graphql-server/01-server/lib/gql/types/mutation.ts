@@ -5,6 +5,7 @@ import { CreatePost } from '../mutations/create_post';
 import { UpdatePost, DeletePost, SecureUpdatePost, SecureDeletePost } from '../mutations/update_post';
 import { CreateComment, UpdateComment, DeleteComment, SecureUpdateComment, SecureDeleteComment } from '../mutations/comment_mutations';
 import { Register, Login, PasswordReset } from '../mutations/authentication';
+import { ResetServer } from '../mutations/reset_server';
 
 export var MutationType = new GraphQLObjectType({
     name: "RootMutation",
@@ -23,6 +24,7 @@ export var MutationType = new GraphQLObjectType({
         deleteComment: DeleteComment,
         secureUpdateComment: SecureUpdateComment,
         secureDeleteComment: SecureDeleteComment,
+        resetServer: ResetServer,
         superSecretPrivateMutation: SecretMutation
     }
 });
