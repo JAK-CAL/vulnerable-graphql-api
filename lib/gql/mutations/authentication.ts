@@ -59,6 +59,7 @@ export const Login: GraphQLFieldConfig<any,any,any> = {
             }
             context.user = user;
             context.session.user_id = user.id;
+            return user;
         }
         throw new Error("Given username does not exist.");
     }

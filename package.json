@@ -30,7 +30,6 @@
     "graphql-type-json": "^0.3.0",
     "sequelize": "^5.21.5",
     "sequelize-cli": "^5.5.1",
-    "sqlite": "^3.0.3",
     "sqlite3": "^5.1.7",
     "typescript": "^3.4.5"
   }

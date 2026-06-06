@@ -25,7 +25,8 @@
     {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "allComments", "objectType": "Comment"},
     {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "createComment", "objectType": "Comment"},
     {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "updateComment", "objectType": "Comment"},
-    {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "deleteComment", "objectType": "Comment"}
+    {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "deleteComment", "objectType": "Comment"},
+    {"owasp": "INJECTION", "resolver": "search", "objectType": "Post"}
   ],
   "secure": [
     {"owasp": "BOLA_READ", "resolver": "securePost", "objectType": "Post"},
@@ -56,6 +57,7 @@
     {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "secureDeleteComment", "objectType": "Comment"},
     {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "internalStats", "objectType": "InternalStats"},
     {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "adminAuditStatus", "objectType": "InternalStats"},
-    {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "privateSystemReport", "objectType": "InternalStats"}
+    {"owasp": "BOPLA_SENSITIVE_FIELD_READ", "resolver": "privateSystemReport", "objectType": "InternalStats"},
+    {"owasp": "INJECTION", "resolver": "secureSearch", "objectType": "Post"}
   ]
 }
