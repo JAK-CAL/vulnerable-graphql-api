@@ -1,8 +1,0 @@
-------------------Payload:-------------------
-{
-  securePostabc {
-    id
-  }
-}
-------------------Response:-------------------
-{'errors': [{'message': 'Cannot query field "securePostabc" on type "RootQuery". Did you mean "securePost"?', 'locations': [{'line': 2, 'column': 3}]}]}
