@@ -1,8 +1,0 @@
-------------------Payload:-------------------
-{
-  adminUsersabc {
-    id
-  }
-}
-------------------Response:-------------------
-{'errors': [{'message': 'Cannot query field "adminUsersabc" on type "RootQuery". Did you mean "adminUsers"?', 'locations': [{'line': 2, 'column': 3}]}]}
