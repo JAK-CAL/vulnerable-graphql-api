@@ -229,14 +229,6 @@ schema-derived classification
 
 ## Outputs
 
-실행 결과는 보통 다음 폴더 아래에 생성된다.
-
-```text
-02-independent-testing-program/03-execution-results/
-```
-
-대표 산출물:
-
 | File | Meaning |
 | --- | --- |
 | `op_catalog.json` | introspection 기반 operation catalog |
@@ -259,23 +251,4 @@ schema-derived classification
 02-independent-testing-program/04-docs/candidate_pool_explanation.md
 02-independent-testing-program/04-docs/result_aware_testing_report.md
 02-independent-testing-program/04-docs/project_folder_structure.md
-```
-
-## Project Scope
-
-좋은 설명:
-
-```text
-Testing execution is black-box.
-Evaluation is ground-truth based in an owned local lab.
-The harness uses schema-derived classification, minimal hints, runtime object pools,
-FSM progress signals, and Graph-GA sequence prioritization.
-```
-
-피해야 할 설명:
-
-```text
-The tool fully understands arbitrary GraphQL authorization semantics from schema alone.
-Graph-GA is always superior on every GraphQL server.
-This can be used to test external services without authorization.
 ```
