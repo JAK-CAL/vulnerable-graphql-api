@@ -1,0 +1,142 @@
+adminUsers:
+  inputs: {}
+  name: adminUsers
+  output:
+    kind: LIST
+    name: null
+    ofType:
+      kind: OBJECT
+      name: User
+      ofType: null
+      type: User
+    type: null
+allComments:
+  inputs: {}
+  name: allComments
+  output:
+    kind: LIST
+    name: null
+    ofType:
+      kind: OBJECT
+      name: Comment
+      ofType: null
+      type: Comment
+    type: null
+allUsers:
+  inputs: {}
+  name: allUsers
+  output:
+    kind: LIST
+    name: null
+    ofType:
+      kind: OBJECT
+      name: User
+      ofType: null
+      type: User
+    type: null
+comment:
+  inputs:
+    id:
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  name: comment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+getAsset:
+  inputs:
+    name:
+      kind: SCALAR
+      name: name
+      ofType: null
+      type: String
+  name: getAsset
+  output:
+    kind: SCALAR
+    name: String
+    ofType: null
+    type: String
+health:
+  inputs: {}
+  name: health
+  output:
+    kind: SCALAR
+    name: String
+    ofType: null
+    type: String
+me:
+  inputs: {}
+  name: me
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+post:
+  inputs:
+    id:
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  name: post
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+publicFeed:
+  inputs: {}
+  name: publicFeed
+  output:
+    kind: SCALAR
+    name: String
+    ofType: null
+    type: String
+search:
+  inputs:
+    query:
+      kind: SCALAR
+      name: query
+      ofType: null
+      type: String
+  name: search
+  output:
+    kind: LIST
+    name: null
+    ofType:
+      kind: OBJECT
+      name: Post
+      ofType: null
+      type: Post
+    type: null
+securePost:
+  inputs:
+    id:
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  name: securePost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+user:
+  inputs:
+    id:
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  name: user
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User

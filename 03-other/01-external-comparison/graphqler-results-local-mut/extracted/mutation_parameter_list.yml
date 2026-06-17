@@ -1,0 +1,261 @@
+createComment:
+  description: null
+  inputs:
+    body:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: body
+      ofType: null
+      type: String
+    postId:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: postId
+      ofType: null
+      type: ID
+    public:
+      defaultValue: 'true'
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+  isDepracated: false
+  name: createComment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+createPost:
+  description: null
+  inputs:
+    content:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: content
+      ofType: null
+      type: String
+    public:
+      defaultValue: 'true'
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+    title:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: title
+      ofType: null
+      type: String
+  isDepracated: false
+  name: createPost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+deleteComment:
+  description: null
+  inputs:
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  isDepracated: false
+  name: deleteComment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+deletePost:
+  description: null
+  inputs:
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+  isDepracated: false
+  name: deletePost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post
+login:
+  description: null
+  inputs:
+    password:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: password
+      ofType: null
+      type: String
+    username:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: username
+      ofType: null
+      type: String
+  isDepracated: false
+  name: login
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+passwordReset:
+  description: null
+  inputs:
+    input:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: input
+      ofType: null
+      type: JSON
+  isDepracated: false
+  name: passwordReset
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+register:
+  description: null
+  inputs:
+    firstName:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: firstName
+      ofType: null
+      type: String
+    lastName:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: lastName
+      ofType: null
+      type: String
+    password:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: password
+      ofType: null
+      type: String
+    username:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: username
+      ofType: null
+      type: String
+  isDepracated: false
+  name: register
+  output:
+    kind: OBJECT
+    name: User
+    ofType: null
+    type: User
+superSecretPrivateMutation:
+  description: null
+  inputs:
+    command:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: command
+      ofType: null
+      type: String
+  isDepracated: false
+  name: superSecretPrivateMutation
+  output:
+    kind: OBJECT
+    name: CommandOutput
+    ofType: null
+    type: CommandOutput
+updateComment:
+  description: null
+  inputs:
+    body:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: body
+      ofType: null
+      type: String
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+    public:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+  isDepracated: false
+  name: updateComment
+  output:
+    kind: OBJECT
+    name: Comment
+    ofType: null
+    type: Comment
+updatePost:
+  description: null
+  inputs:
+    content:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: content
+      ofType: null
+      type: String
+    id:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: id
+      ofType: null
+      type: ID
+    public:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: public
+      ofType: null
+      type: Boolean
+    title:
+      defaultValue: null
+      description: null
+      kind: SCALAR
+      name: title
+      ofType: null
+      type: String
+  isDepracated: false
+  name: updatePost
+  output:
+    kind: OBJECT
+    name: Post
+    ofType: null
+    type: Post

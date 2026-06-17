@@ -1,0 +1,171 @@
+- nodes:
+  - adminUsers
+- nodes:
+  - allComments
+- nodes:
+  - allUsers
+- nodes:
+  - getAsset
+- nodes:
+  - health
+- nodes:
+  - me
+- nodes:
+  - publicFeed
+- nodes:
+  - search
+- nodes:
+  - CommandOutput
+- nodes:
+  - RootMutation
+- nodes:
+  - RootQuery
+- nodes:
+  - allComments
+  - Comment
+  - comment
+- nodes:
+  - allComments
+  - Comment
+  - comment
+- nodes:
+  - me
+  - allUsers
+  - adminUsers
+  - User
+  - user
+- nodes:
+  - me
+  - allUsers
+  - adminUsers
+  - User
+  - user
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - adminUsers
+- nodes:
+  - allComments
+- nodes:
+  - allUsers
+- nodes:
+  - getAsset
+- nodes:
+  - health
+- nodes:
+  - me
+- nodes:
+  - publicFeed
+- nodes:
+  - search
+- nodes:
+  - CommandOutput
+- nodes:
+  - RootMutation
+- nodes:
+  - RootQuery
+- nodes:
+  - allComments
+  - Comment
+  - comment
+- nodes:
+  - allComments
+  - Comment
+  - comment
+- nodes:
+  - me
+  - allUsers
+  - adminUsers
+  - User
+  - user
+- nodes:
+  - me
+  - allUsers
+  - adminUsers
+  - User
+  - user
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - adminUsers
+- nodes:
+  - allComments
+- nodes:
+  - allUsers
+- nodes:
+  - getAsset
+- nodes:
+  - health
+- nodes:
+  - me
+- nodes:
+  - publicFeed
+- nodes:
+  - search
+- nodes:
+  - CommandOutput
+- nodes:
+  - RootMutation
+- nodes:
+  - RootQuery
+- nodes:
+  - allComments
+  - Comment
+  - comment
+- nodes:
+  - allComments
+  - Comment
+  - comment
+- nodes:
+  - me
+  - allUsers
+  - adminUsers
+  - User
+  - user
+- nodes:
+  - me
+  - allUsers
+  - adminUsers
+  - User
+  - user
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
+- nodes:
+  - search
+  - Post
+  - post
+  - securePost
