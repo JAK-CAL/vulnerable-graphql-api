@@ -1,5 +1,5 @@
 endpoint: http://127.0.0.1:3100/graphql
-outputDir: 02-independent-testing-program/03-execution-results/security-results-02-test-target
+outputDir: 03-independent-testing-program/03-execution-results/security-results-02-test-target
 requestBudget: 200
 seed: 1
 groundTruthPath: 02-test-target-graphql-server/02-ground-truth/ground_truth.json

@@ -1,0 +1,17 @@
+endpoint: http://127.0.0.1:3000/graphql
+outputDir: 03-independent-testing-program/03-execution-results/security-results
+requestBudget: 50
+seed: 1
+# Optional: read a saved operation catalog instead of introspecting the local schema.
+# operationCatalogPath: 03-independent-testing-program/03-execution-results/security-results/op_catalog.json
+# Optional: compare findings against a custom ground truth table.
+groundTruthPath: 01-test-target-graphql-server/02-ground-truth/ground_truth.json
+# Optional: provide server-specific login/me/operation classification hints.
+# hintsPath: 03-independent-testing-program/02-other-server-config/security_hints.example.json
+actors:
+  - name: A
+    username:
+    password:
+  - name: B
+    username:
+    password:

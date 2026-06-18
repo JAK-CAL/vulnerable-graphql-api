@@ -13,23 +13,30 @@ import {
     allPastes,
     allSystemReports,
     allUsers,
+    allWorkspaces,
     authenticate,
     AuditLogRecord,
     createAuditLog,
     createPaste,
     createUser,
+    createWorkspace,
     deleteAuditRecord,
     deletePasteRecord,
+    deleteWorkspaceRecord,
     getAuditLog,
     getPaste,
     getUserById,
     getUserByUsername,
+    getWorkspace,
     GraphQLContext,
+    joinWorkspaceByInvite,
     PasteRecord,
     resetState,
     updateAuditRecord,
     updatePasteRecord,
-    UserRecord
+    updateWorkspaceRecord,
+    UserRecord,
+    WorkspaceRecord
 } from './state';
 
 function requireUser(context: GraphQLContext): UserRecord {
@@ -71,12 +78,32 @@ function visibleAudit(audit: AuditLogRecord | undefined, context: GraphQLContext
     return undefined;
 }
 
+function redactPaste(paste: PasteRecord): any {
+    return Object.assign({}, paste, {internalNote: null, ownerSecret: null});
+}
+
+function redactAudit(audit: AuditLogRecord): any {
+    return Object.assign({}, audit, {moderationNote: null, reviewToken: null});
+}
+
+function redactWorkspace(workspace: WorkspaceRecord): any {
+    return Object.assign({}, workspace, {inviteCode: null, internalNote: null});
+}
+
+function requireOwnedActiveRecord<T extends {ownerId: string; deleted: boolean}>(record: T | undefined, context: GraphQLContext, message: string): T {
+    const current = requireUser(context);
+    if (!record || record.ownerId !== current.id || record.deleted) {
+        throw new Error(message);
+    }
+    return record;
+}
+
 function sanitizedPaste(paste: PasteRecord | undefined, context: GraphQLContext): any {
     const visible = visiblePaste(paste, context);
     if (!visible) {
         return undefined;
     }
-    return Object.assign({}, visible, {internalNote: null, ownerSecret: null});
+    return redactPaste(visible);
 }
 
 function sanitizedAudit(audit: AuditLogRecord | undefined, context: GraphQLContext): any {
@@ -84,7 +111,17 @@ function sanitizedAudit(audit: AuditLogRecord | undefined, context: GraphQLConte
     if (!visible) {
         return undefined;
     }
-    return Object.assign({}, visible, {moderationNote: null, reviewToken: null});
+    return redactAudit(visible);
+}
+
+function sanitizedWorkspace(workspace: WorkspaceRecord | undefined, context: GraphQLContext): any {
+    if (!workspace || workspace.deleted) {
+        return undefined;
+    }
+    if (!context.user || (workspace.ownerId !== context.user.id && workspace.memberIds.indexOf(context.user.id) < 0)) {
+        return undefined;
+    }
+    return redactWorkspace(workspace);
 }
 
 function queryLooksInjected(value: string | undefined): boolean {
@@ -187,6 +224,42 @@ const AuditLogViewType: GraphQLObjectType = new GraphQLObjectType({
     })
 });
 
+const WorkspaceType: GraphQLObjectType = new GraphQLObjectType({
+    name: 'Workspace',
+    fields: (): GraphQLFieldConfigMap<any, GraphQLContext> => ({
+        id: {type: GraphQLString},
+        name: {type: GraphQLString},
+        archived: {type: GraphQLBoolean},
+        deleted: {type: GraphQLBoolean},
+        owner: {
+            type: UserType,
+            resolve: (workspace: WorkspaceRecord) => getUserById(workspace.ownerId)
+        },
+        members: {
+            type: new GraphQLList(UserSessionType),
+            resolve: (workspace: WorkspaceRecord) => workspace.memberIds.map((id) => getUserById(id)).filter(Boolean)
+        }
+    })
+});
+
+const WorkspaceViewType: GraphQLObjectType = new GraphQLObjectType({
+    name: 'WorkspaceView',
+    fields: (): GraphQLFieldConfigMap<any, GraphQLContext> => ({
+        id: {type: GraphQLString},
+        name: {type: GraphQLString},
+        archived: {type: GraphQLBoolean},
+        deleted: {type: GraphQLBoolean},
+        owner: {
+            type: UserSessionType,
+            resolve: (workspace: WorkspaceRecord) => getUserById(workspace.ownerId)
+        },
+        members: {
+            type: new GraphQLList(UserSessionType),
+            resolve: (workspace: WorkspaceRecord) => workspace.memberIds.map((id) => getUserById(id)).filter(Boolean)
+        }
+    })
+});
+
 const SystemReportType: GraphQLObjectType = new GraphQLObjectType({
     name: 'SystemReport',
     fields: (): GraphQLFieldConfigMap<any, GraphQLContext> => ({
@@ -262,7 +335,7 @@ const QueryType: GraphQLObjectType = new GraphQLObjectType({
             type: new GraphQLList(PasteViewType),
             resolve: () => allPastes()
                 .filter((paste) => paste.public && !paste.deleted)
-                .map((paste) => Object.assign({}, paste, {internalNote: null, ownerSecret: null}))
+                .map(redactPaste)
         },
         ownerPasteHistory: {
             type: new GraphQLList(PasteViewType),
@@ -274,7 +347,7 @@ const QueryType: GraphQLObjectType = new GraphQLObjectType({
                 }
                 return allPastes()
                     .filter((paste) => paste.ownerId === current.id && !paste.deleted)
-                    .map((paste) => Object.assign({}, paste, {internalNote: null, ownerSecret: null}));
+                    .map(redactPaste);
             }
         },
         entry: {
@@ -313,7 +386,7 @@ const QueryType: GraphQLObjectType = new GraphQLObjectType({
                         paste.content.toLowerCase().indexOf(needle) >= 0 ||
                         needle === 'securityfuzz'
                     ))
-                    .map((paste) => Object.assign({}, paste, {internalNote: null, ownerSecret: null}));
+                    .map(redactPaste);
             }
         },
         auditLog: {
@@ -344,7 +417,7 @@ const QueryType: GraphQLObjectType = new GraphQLObjectType({
             type: new GraphQLList(AuditLogViewType),
             resolve: () => allAuditLogs()
                 .filter((audit) => audit.public && !audit.deleted)
-                .map((audit) => Object.assign({}, audit, {moderationNote: null, reviewToken: null}))
+                .map(redactAudit)
         },
         ownerAuditHistory: {
             type: new GraphQLList(AuditLogViewType),
@@ -356,7 +429,26 @@ const QueryType: GraphQLObjectType = new GraphQLObjectType({
                 }
                 return allAuditLogs()
                     .filter((audit) => audit.ownerId === current.id && !audit.deleted)
-                    .map((audit) => Object.assign({}, audit, {moderationNote: null, reviewToken: null}));
+                    .map(redactAudit);
+            }
+        },
+        workspace: {
+            type: WorkspaceType,
+            args: {id: {type: GraphQLString}},
+            resolve: (_source, args) => getWorkspace(args.id)
+        },
+        secureWorkspace: {
+            type: WorkspaceViewType,
+            args: {id: {type: GraphQLString}},
+            resolve: (_source, args, context) => sanitizedWorkspace(getWorkspace(args.id), context)
+        },
+        myWorkspaces: {
+            type: new GraphQLList(WorkspaceViewType),
+            resolve: (_source, _args, context) => {
+                const current = requireUser(context);
+                return allWorkspaces()
+                    .filter((workspace) => !workspace.deleted && workspace.memberIds.indexOf(current.id) >= 0)
+                    .map(redactWorkspace);
             }
         },
         privateSystemReport: {
@@ -464,12 +556,8 @@ const MutationType: GraphQLObjectType = new GraphQLObjectType({
                 public: {type: GraphQLBoolean}
             },
             resolve: (_source, args, context) => {
-                const current = requireUser(context);
-                const paste = getPaste(args.id);
-                if (!paste || paste.ownerId !== current.id || paste.deleted) {
-                    throw new Error('Paste not found');
-                }
-                return Object.assign({}, updatePasteRecord(paste, args.title, args.content, args.public), {internalNote: null, ownerSecret: null});
+                const paste = requireOwnedActiveRecord(getPaste(args.id), context, 'Paste not found');
+                return redactPaste(updatePasteRecord(paste, args.title, args.content, args.public));
             }
         },
         reviseEntry: {
@@ -505,12 +593,8 @@ const MutationType: GraphQLObjectType = new GraphQLObjectType({
             type: PasteViewType,
             args: {id: {type: GraphQLString}},
             resolve: (_source, args, context) => {
-                const current = requireUser(context);
-                const paste = getPaste(args.id);
-                if (!paste || paste.ownerId !== current.id || paste.deleted) {
-                    throw new Error('Paste not found');
-                }
-                return Object.assign({}, deletePasteRecord(paste), {internalNote: null, ownerSecret: null});
+                const paste = requireOwnedActiveRecord(getPaste(args.id), context, 'Paste not found');
+                return redactPaste(deletePasteRecord(paste));
             }
         },
         retireEntry: {
@@ -591,12 +675,8 @@ const MutationType: GraphQLObjectType = new GraphQLObjectType({
                 public: {type: GraphQLBoolean}
             },
             resolve: (_source, args, context) => {
-                const current = requireUser(context);
-                const audit = getAuditLog(args.id);
-                if (!audit || audit.ownerId !== current.id || audit.deleted) {
-                    throw new Error('Audit log not found');
-                }
-                return Object.assign({}, updateAuditRecord(audit, args.title, args.content, args.public), {moderationNote: null, reviewToken: null});
+                const audit = requireOwnedActiveRecord(getAuditLog(args.id), context, 'Audit log not found');
+                return redactAudit(updateAuditRecord(audit, args.title, args.content, args.public));
             }
         },
         reviseRecord: {
@@ -632,12 +712,8 @@ const MutationType: GraphQLObjectType = new GraphQLObjectType({
             type: AuditLogViewType,
             args: {id: {type: GraphQLString}},
             resolve: (_source, args, context) => {
-                const current = requireUser(context);
-                const audit = getAuditLog(args.id);
-                if (!audit || audit.ownerId !== current.id || audit.deleted) {
-                    throw new Error('Audit log not found');
-                }
-                return Object.assign({}, deleteAuditRecord(audit), {moderationNote: null, reviewToken: null});
+                const audit = requireOwnedActiveRecord(getAuditLog(args.id), context, 'Audit log not found');
+                return redactAudit(deleteAuditRecord(audit));
             }
         },
         retireRecord: {
@@ -650,6 +726,74 @@ const MutationType: GraphQLObjectType = new GraphQLObjectType({
                     throw new Error('Record not found');
                 }
                 return deleteAuditRecord(audit);
+            }
+        },
+        createWorkspace: {
+            type: WorkspaceType,
+            args: {name: {type: GraphQLString}},
+            resolve: (_source, args, context) => {
+                const current = requireUser(context);
+                return createWorkspace(current.id, args.name || 'Security workspace');
+            }
+        },
+        updateWorkspace: {
+            type: WorkspaceType,
+            args: {
+                id: {type: GraphQLString},
+                name: {type: GraphQLString},
+                archived: {type: GraphQLBoolean}
+            },
+            resolve: (_source, args, context) => {
+                requireUser(context);
+                const workspace = getWorkspace(args.id);
+                if (!workspace) {
+                    throw new Error('Workspace not found');
+                }
+                return updateWorkspaceRecord(workspace, args.name, args.archived);
+            }
+        },
+        secureUpdateWorkspace: {
+            type: WorkspaceViewType,
+            args: {
+                id: {type: GraphQLString},
+                name: {type: GraphQLString},
+                archived: {type: GraphQLBoolean}
+            },
+            resolve: (_source, args, context) => {
+                const workspace = requireOwnedActiveRecord(getWorkspace(args.id), context, 'Workspace not found');
+                return redactWorkspace(updateWorkspaceRecord(workspace, args.name, args.archived));
+            }
+        },
+        deleteWorkspace: {
+            type: WorkspaceType,
+            args: {id: {type: GraphQLString}},
+            resolve: (_source, args, context) => {
+                requireUser(context);
+                const workspace = getWorkspace(args.id);
+                if (!workspace) {
+                    throw new Error('Workspace not found');
+                }
+                return deleteWorkspaceRecord(workspace);
+            }
+        },
+        secureDeleteWorkspace: {
+            type: WorkspaceViewType,
+            args: {id: {type: GraphQLString}},
+            resolve: (_source, args, context) => {
+                const workspace = requireOwnedActiveRecord(getWorkspace(args.id), context, 'Workspace not found');
+                return redactWorkspace(deleteWorkspaceRecord(workspace));
+            }
+        },
+        joinWorkspace: {
+            type: WorkspaceViewType,
+            args: {inviteCode: {type: GraphQLString}},
+            resolve: (_source, args, context) => {
+                const current = requireUser(context);
+                const workspace = joinWorkspaceByInvite(current.id, args.inviteCode);
+                if (!workspace) {
+                    throw new Error('Workspace invite not found');
+                }
+                return redactWorkspace(workspace);
             }
         },
         adminCommand: {

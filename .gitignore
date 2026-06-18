@@ -2,4 +2,7 @@ db.sqlite
 build/
 node_modules/
 security-results*/
+*/03-execution-results/security-results*/
+03-independent-testing-program/04-docs/
+04-other/
 .DS_Store

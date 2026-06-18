@@ -36,6 +36,17 @@ export interface AuditLogRecord {
     ownerId: string;
 }
 
+export interface WorkspaceRecord {
+    id: string;
+    name: string;
+    archived: boolean;
+    deleted: boolean;
+    inviteCode: string;
+    internalNote: string;
+    ownerId: string;
+    memberIds: string[];
+}
+
 export interface SystemReportRecord {
     id: string;
     title: string;
@@ -50,10 +61,12 @@ interface LabState {
     users: UserRecord[];
     pastes: PasteRecord[];
     auditLogs: AuditLogRecord[];
+    workspaces: WorkspaceRecord[];
     systemReports: SystemReportRecord[];
     nextUserId: number;
     nextPasteId: number;
     nextAuditId: number;
+    nextWorkspaceId: number;
 }
 
 export interface GraphQLContext {
@@ -65,6 +78,16 @@ let state: LabState;
 
 function token(prefix: string, id: string): string {
     return prefix + '-' + id + '-reset-token';
+}
+
+function hasValue<T>(value: T | null | undefined): value is T {
+    return value !== undefined && value !== null;
+}
+
+function applyOptional<T, K extends keyof T>(record: T, key: K, value: T[K] | null | undefined): void {
+    if (hasValue(value)) {
+        record[key] = value;
+    }
 }
 
 export function resetState(): void {
@@ -181,6 +204,28 @@ export function resetState(): void {
                 ownerId: '2'
             }
         ],
+        workspaces: [
+            {
+                id: '1',
+                name: 'Alice incident workspace',
+                archived: false,
+                deleted: false,
+                inviteCode: 'invite-alice-workspace-1',
+                internalNote: 'alice-workspace-private-plan',
+                ownerId: '1',
+                memberIds: ['1']
+            },
+            {
+                id: '2',
+                name: 'Bob import workspace',
+                archived: false,
+                deleted: false,
+                inviteCode: 'invite-bob-workspace-2',
+                internalNote: 'bob-workspace-private-plan',
+                ownerId: '2',
+                memberIds: ['2']
+            }
+        ],
         systemReports: [
             {
                 id: '1',
@@ -194,7 +239,8 @@ export function resetState(): void {
         ],
         nextUserId: 4,
         nextPasteId: 5,
-        nextAuditId: 4
+        nextAuditId: 4,
+        nextWorkspaceId: 3
     };
 }
 
@@ -259,15 +305,9 @@ export function createPaste(ownerId: string, title: string, content: string, isP
 }
 
 export function updatePasteRecord(paste: PasteRecord, title?: string, content?: string, isPublic?: boolean): PasteRecord {
-    if (title !== undefined && title !== null) {
-        paste.title = title;
-    }
-    if (content !== undefined && content !== null) {
-        paste.content = content;
-    }
-    if (isPublic !== undefined && isPublic !== null) {
-        paste.public = isPublic;
-    }
+    applyOptional(paste, 'title', title);
+    applyOptional(paste, 'content', content);
+    applyOptional(paste, 'public', isPublic);
     return paste;
 }
 
@@ -300,21 +340,62 @@ export function createAuditLog(ownerId: string, title: string, content: string, 
 }
 
 export function updateAuditRecord(audit: AuditLogRecord, title?: string, content?: string, isPublic?: boolean): AuditLogRecord {
-    if (title !== undefined && title !== null) {
-        audit.title = title;
-    }
-    if (content !== undefined && content !== null) {
-        audit.content = content;
-    }
-    if (isPublic !== undefined && isPublic !== null) {
-        audit.public = isPublic;
-    }
+    applyOptional(audit, 'title', title);
+    applyOptional(audit, 'content', content);
+    applyOptional(audit, 'public', isPublic);
     return audit;
 }
 
 export function deleteAuditRecord(audit: AuditLogRecord): AuditLogRecord {
     audit.deleted = true;
     return audit;
+}
+
+export function allWorkspaces(): WorkspaceRecord[] {
+    return state.workspaces;
+}
+
+export function getWorkspace(id: string | undefined): WorkspaceRecord | undefined {
+    return state.workspaces.find((workspace) => workspace.id === String(id));
+}
+
+export function createWorkspace(ownerId: string, name: string): WorkspaceRecord {
+    const id = String(state.nextWorkspaceId++);
+    const workspace: WorkspaceRecord = {
+        id: id,
+        name: name,
+        archived: false,
+        deleted: false,
+        inviteCode: 'invite-workspace-' + id,
+        internalNote: 'owner-' + ownerId + '-workspace-plan-' + id,
+        ownerId: ownerId,
+        memberIds: [ownerId]
+    };
+    state.workspaces.push(workspace);
+    return workspace;
+}
+
+export function updateWorkspaceRecord(workspace: WorkspaceRecord, name?: string, archived?: boolean): WorkspaceRecord {
+    applyOptional(workspace, 'name', name);
+    applyOptional(workspace, 'archived', archived);
+    return workspace;
+}
+
+export function deleteWorkspaceRecord(workspace: WorkspaceRecord): WorkspaceRecord {
+    workspace.deleted = true;
+    workspace.archived = true;
+    return workspace;
+}
+
+export function joinWorkspaceByInvite(userId: string, inviteCode: string | undefined): WorkspaceRecord | undefined {
+    const workspace = state.workspaces.find((item) => item.inviteCode === String(inviteCode) && !item.deleted);
+    if (!workspace) {
+        return undefined;
+    }
+    if (workspace.memberIds.indexOf(userId) < 0) {
+        workspace.memberIds.push(userId);
+    }
+    return workspace;
 }
 
 export function allSystemReports(): SystemReportRecord[] {

@@ -13,19 +13,23 @@
   01-server/                 테스트 대상 GraphQL lab server
   02-ground-truth/           취약/안전 resolver 정답표
 
-02-independent-testing-program/
-  01-test-program/           독립 GraphQL authorization testing harness
-  02-other-server-config/    다른 owned local 서버에 붙일 때 쓰는 설정/hints
-  03-execution-results/      실행 결과 JSON/Markdown report
-  04-docs/                   설계/분석/팀원 공유 문서
+02-test-target-graphql-server/
+  01-server/                 DVGA-inspired 보완 GraphQL lab server
+  02-ground-truth/           서버2 취약/안전 resolver 정답표
+  02-other-server-config/    서버2 실행 config/hints
 
-03-other/
-  01-external-comparison/    외부 비교용 자료. 메인 구현 아님
+03-independent-testing-program/
+  01-test-program/           독립 GraphQL authorization testing harness
+  02-other-server-config/    기본 서버1 실행 config/hints
+  03-execution-results/      실행 결과 JSON/Markdown report
+
+info/
+  현재 코드 기준 프로젝트 설명/평가/리포트 보조 문서
 ```
 
-## Test Target Server
+## Test Target Servers
 
-서버 위치:
+서버 1 위치:
 
 ```text
 01-test-target-graphql-server/01-server
@@ -76,12 +80,29 @@ Ground truth:
 | Vulnerable entries | 26 |
 | Secure/public/decoy entries | 29 |
 
+서버 2 위치:
+
+```text
+02-test-target-graphql-server/01-server
+```
+
+서버 2는 Paste/AuditLog/Workspace 도메인의 보완 벤치마크다.
+
+```text
+http://127.0.0.1:3100/graphql
+```
+
+| Group | Count |
+| --- | ---: |
+| Vulnerable entries | 47 |
+| Secure/public/decoy entries | 37 |
+
 ## Independent Testing Program
 
 테스트 프로그램 위치:
 
 ```text
-02-independent-testing-program/01-test-program/lib/security-testing
+03-independent-testing-program/01-test-program/lib/security-testing
 ```
 
 핵심 실행 흐름:
@@ -144,7 +165,7 @@ npm run sequelize db:seed:all
 
 ## Run Server
 
-터미널 1:
+서버 1:
 
 ```bash
 ./run.sh
@@ -154,6 +175,16 @@ npm run sequelize db:seed:all
 
 ```text
 http://127.0.0.1:3000/graphql
+```
+
+서버 2:
+
+```bash
+npm run server:02
+```
+
+```text
+http://127.0.0.1:3100/graphql
 ```
 
 ## Run Tests
@@ -178,7 +209,7 @@ npm run security:fuzz:course
 npm run security:fuzz -- \
   --profile course \
   --endpoint http://127.0.0.1:3000/graphql \
-  --out 02-independent-testing-program/03-execution-results/security-results-course
+  --out 03-independent-testing-program/03-execution-results/security-results-course
 ```
 
 단일 method 실행:
@@ -200,12 +231,18 @@ npm run security:fuzz -- \
   --endpoint http://127.0.0.1:3000/graphql
 ```
 
+서버 2 실행:
+
+```bash
+npm run security:fuzz:02
+```
+
 operation catalog만 생성:
 
 ```bash
 npm run security:catalog -- \
   --endpoint http://127.0.0.1:3000/graphql \
-  --out 02-independent-testing-program/03-execution-results/security-results-catalog
+  --out 03-independent-testing-program/03-execution-results/security-results-catalog
 ```
 
 ## Other Local Server Config
@@ -213,8 +250,8 @@ npm run security:catalog -- \
 다른 owned local GraphQL 서버에 붙일 때는 다음 설정 파일을 참고한다.
 
 ```text
-02-independent-testing-program/02-other-server-config/config.yaml
-02-independent-testing-program/02-other-server-config/security_hints.example.json
+03-independent-testing-program/02-other-server-config/config.yaml
+03-independent-testing-program/02-other-server-config/security_hints.example.json
 ```
 
 기본 적용 방식:
@@ -244,11 +281,11 @@ schema-derived classification
 ## Main Docs
 
 ```text
-02-independent-testing-program/04-docs/current_project_and_server_summary.md
-02-independent-testing-program/04-docs/independent_testing_program_design.md
-02-independent-testing-program/04-docs/graph_ga_revised_implementation.md
-02-independent-testing-program/04-docs/fsm_design_summary.md
-02-independent-testing-program/04-docs/candidate_pool_explanation.md
-02-independent-testing-program/04-docs/result_aware_testing_report.md
-02-independent-testing-program/04-docs/project_folder_structure.md
+info/README.md
+info/project_core_explanation.md
+info/current_project_and_server_summary.md
+info/graph_ga_strategy.md
+info/fsm_design.md
+info/testing_evaluation_guide.md
+info/evaluation_report.md
 ```

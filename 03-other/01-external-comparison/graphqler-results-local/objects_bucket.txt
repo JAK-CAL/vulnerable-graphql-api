@@ -1,9 +1,0 @@
-Number of objects: 0
-Number of scalars: 0
-
-------------------- OBJECTS BUCKET -------------------
-{}
-
-
-------------------- SCALARS BUCKET -------------------
-{}
