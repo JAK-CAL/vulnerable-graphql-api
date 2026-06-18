@@ -1,0 +1,13 @@
+endpoint: http://127.0.0.1:3100/graphql
+outputDir: 02-independent-testing-program/03-execution-results/security-results-02-test-target
+requestBudget: 200
+seed: 1
+groundTruthPath: 02-test-target-graphql-server/02-ground-truth/ground_truth.json
+hintsPath: 02-test-target-graphql-server/02-other-server-config/security_hints.json
+actors:
+  - name: A
+    username: userA
+    password: passwordA
+  - name: B
+    username: userB
+    password: passwordB

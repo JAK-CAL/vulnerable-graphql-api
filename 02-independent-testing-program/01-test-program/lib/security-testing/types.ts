@@ -44,6 +44,7 @@ export interface TestHints {
     auth?: Partial<AuthConfig>;
     actorLoginVariables?: {[actorName: string]: any};
     operationTags?: {[operationName: string]: string[]};
+    sensitiveFields?: string[];
 }
 
 export interface SecurityTestConfig {

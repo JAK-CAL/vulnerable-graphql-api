@@ -56,8 +56,18 @@ function sequenceUsesForeignReference(sequence: SequenceStep[], attacker: string
     });
 }
 
-function scalarSelection(fields: string[]): string {
-    const allowed = fields.filter((field) => ['id', 'title', 'content', 'public', 'deleted', 'internalNote', 'body', 'moderationNote', 'username', 'firstName', 'lastName', 'resetToken', 'stdout', 'stderr', 'summary'].indexOf(field) >= 0);
+function unique(items: string[]): string[] {
+    return items.filter((item, index) => items.indexOf(item) === index);
+}
+
+function sensitiveFieldNames(config: SecurityTestConfig): string[] {
+    return unique(['resetToken', 'internalNote', 'moderationNote'].concat(config.hints.sensitiveFields || []));
+}
+
+function scalarSelection(fields: string[], config?: SecurityTestConfig): string {
+    const sensitive = config ? sensitiveFieldNames(config) : ['resetToken', 'internalNote', 'moderationNote'];
+    const allowedNames = unique(['id', 'title', 'content', 'public', 'deleted', 'body', 'username', 'firstName', 'lastName', 'stdout', 'stderr', 'summary'].concat(sensitive));
+    const allowed = fields.filter((field) => allowedNames.indexOf(field) >= 0);
     return allowed.length > 0 ? allowed.join(' ') : 'id';
 }
 
@@ -469,7 +479,7 @@ function mutateGene(parent: SequenceChromosome, catalog: OperationCatalogEntry[]
             const op = options[Math.floor(rng() * options.length)];
             gene.targetResolver = op.name;
             gene.objectType = op.namedReturnType;
-            gene.selectionSet = scalarSelection(op.fields.map((field) => field.name));
+            gene.selectionSet = scalarSelection(op.fields.map((field) => field.name), config);
             history.push('admin-like-operation-mutation');
         }
     }
@@ -479,12 +489,12 @@ function mutateGene(parent: SequenceChromosome, catalog: OperationCatalogEntry[]
             const op = options[Math.floor(rng() * options.length)];
             const sensitive = op.fields
                 .map((field) => field.name)
-                .filter((field) => ['resetToken', 'internalNote', 'moderationNote'].indexOf(field) >= 0);
+                .filter((field) => sensitiveFieldNames(config).indexOf(field) >= 0);
             if (sensitive.length > 0) {
                 gene.targetResolver = op.name;
                 gene.objectType = op.namedReturnType;
                 gene.sensitiveField = sensitive[Math.floor(rng() * sensitive.length)];
-                gene.selectionSet = scalarSelection(op.fields.map((field) => field.name));
+                gene.selectionSet = scalarSelection(op.fields.map((field) => field.name), config);
                 history.push('sensitive-field-mutation');
             }
         }
@@ -498,7 +508,7 @@ function mutateGene(parent: SequenceChromosome, catalog: OperationCatalogEntry[]
     else {
         const op = findOperation(catalog, gene.targetResolver);
         if (op) {
-            gene.selectionSet = scalarSelection(op.fields.map((field) => field.name));
+            gene.selectionSet = scalarSelection(op.fields.map((field) => field.name), config);
             history.push('selection-set-repair-mutation');
         }
     }

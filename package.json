@@ -10,6 +10,8 @@
     "security:catalog": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js catalog",
     "security:fuzz": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js run",
     "security:fuzz:course": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js run --profile course --out 02-independent-testing-program/03-execution-results/security-results-course",
+    "server:02": "PORT=3100 node build/02-test-target-graphql-server/01-server/app.js",
+    "security:fuzz:02": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js run --config 02-test-target-graphql-server/02-other-server-config/config.yaml",
     "security:eval": "node build/02-independent-testing-program/01-test-program/lib/security-testing/cli.js eval"
   },
   "dependencies": {

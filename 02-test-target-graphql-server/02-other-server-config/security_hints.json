@@ -1,0 +1,49 @@
+{
+  "auth": {
+    "loginOperationName": "Login",
+    "loginQuery": "mutation Login($username: String, $password: String) { login(username: $username, password: $password) { id username } }",
+    "meOperationName": "AuthSession",
+    "meQuery": "query AuthSession { me { id username firstName lastName } }",
+    "meResultPath": ["me"]
+  },
+  "actorLoginVariables": {
+    "A": {
+      "username": "userA",
+      "password": "passwordA"
+    },
+    "B": {
+      "username": "userB",
+      "password": "passwordB"
+    }
+  },
+  "sensitiveFields": [
+    "resetToken",
+    "internalNote",
+    "moderationNote",
+    "apiKey",
+    "ownerSecret",
+    "reviewToken",
+    "debugToken"
+  ],
+  "operationTags": {
+    "securePaste": ["secure_hint"],
+    "pastePreview": ["secure_hint"],
+    "workspaceSummary": ["secure_hint"],
+    "publicPastes": ["decoy_or_public_hint"],
+    "ownerPasteHistory": ["secure_hint"],
+    "secureSearchPastes": ["secure_hint"],
+    "secureAuditLog": ["secure_hint"],
+    "auditPreview": ["secure_hint"],
+    "publicAuditLogs": ["decoy_or_public_hint"],
+    "ownerAuditHistory": ["secure_hint"],
+    "privateSystemReport": ["admin_like", "secure_hint"],
+    "internalStats": ["admin_like", "secure_hint"],
+    "secureAdminCommand": ["admin_like", "secure_hint"],
+    "adminSafeDirectory": ["admin_like", "secure_hint"],
+    "reviseEntry": ["update"],
+    "retireEntry": ["delete"],
+    "reviseRecord": ["update"],
+    "retireRecord": ["delete"],
+    "maintenanceTask": ["admin_like"]
+  }
+}

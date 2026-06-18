@@ -220,7 +220,7 @@ async function runSecurityRegression(config: SecurityTestConfig, options: RunOpt
 
     const owner = config.actors[0].name;
     const attacker = config.actors[1].name;
-    const population = buildAttackPopulation(catalog, owner, attacker);
+    const population = buildAttackPopulation(catalog, owner, attacker, config.hints.sensitiveFields || []);
     const seeds = options.seeds.length > 0 ? options.seeds : [config.seed || 1];
     const budgets = options.budgets.length > 0 ? options.budgets : [config.requestBudget];
     const runs: ModeRun[] = [];

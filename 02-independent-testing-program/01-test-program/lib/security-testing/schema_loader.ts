@@ -92,6 +92,7 @@ function describeOperation(localSchema: any, kind: OperationKind, fieldName: str
 
 function applyHints(catalog: OperationCatalogEntry[], hints: TestHints): OperationCatalogEntry[] {
     const operationTags = hints.operationTags || {};
+    const hintedSensitiveFields = (hints.sensitiveFields || []).map((field) => field.toLowerCase());
     return catalog.map((entry) => {
         const hinted = operationTags[entry.name] || [];
         hinted.forEach((tag) => {
@@ -99,6 +100,10 @@ function applyHints(catalog: OperationCatalogEntry[], hints: TestHints): Operati
                 entry.classification.push(tag);
             }
         });
+        const hasHintedSensitiveField = entry.fields.some((field) => hintedSensitiveFields.indexOf(field.name.toLowerCase()) >= 0);
+        if (hasHintedSensitiveField && entry.classification.indexOf('sensitive_surface') < 0) {
+            entry.classification.push('sensitive_surface');
+        }
         return entry;
     });
 }
